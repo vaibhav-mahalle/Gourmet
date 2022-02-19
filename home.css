@@ -1,37 +1,23 @@
 @import url(dexterous-ui.netlify.app/stylesheets/main.css);
+@import url(/stylesheets/main.css);
 
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
-
-.navigation{
-    background-color: #004643;
-    justify-content: space-between;
-}
 
 .banner-image{
     background-image: url(/assets/gourmet\ bg.jpg);
     height: calc(100vh - 5rem);
     background-position: center;
     background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-size: cover;
+    position: relative;
 
-}
-
-.flex-row{
-    align-items: center;
-    gap: 0;
 }
 
 .btn-link-noBorder{
-    color: #fffffe;
-}
-
-.brand-heading{
-    color: #fffffe;
+    color: var(--headline-color);
 }
 
 .overlay-text{
-    color: #fffffe;
+    color: var(--headline-color);
     font-size: 2rem;
     font-weight: 600;
 }
@@ -60,6 +46,6 @@
 }
 
 .navigation .btn:hover,.navigation .btn-link-noBorder:hover{
-   color: #f9bc60;
+   color: var(--highlight-color);
 
 }

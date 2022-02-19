@@ -1,0 +1,16 @@
+@import url(/stylesheets/variable.css);
+@import url(/home.css);
+
+.navigation{
+    background-color: var(--bg-color);
+    justify-content: space-between;
+}
+
+.flex-row{
+    align-items: center;
+    gap: 0;
+}
+
+.brand-heading{
+    color: var(--headline-color);
+}
