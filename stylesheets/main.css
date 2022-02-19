@@ -14,3 +14,15 @@
 .brand-heading{
     color: var(--headline-color);
 }
+
+.page-container{
+    margin-top: 6rem;
+}
+
+/* utility */
+/* flex-column */
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
