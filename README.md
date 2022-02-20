@@ -37,27 +37,32 @@ Gourmet uses smooth colors and grid layout that maintains the outlay of the webs
 ## Features
 
 - ### Home page
-![Home page](/assets/HomePage01 - Copy.png)
-![Home page](/assets/HomePage02 - Copy.png)
-![Home page](/assets/HomePage03 - Copy.png)
+![Home page](/assets/HomePage01Copy.png)
+<br>
+![Home page](/assets/HomePage02Copy.png)
+<br>
+![Home page](/assets/HomePage03Copy.png)
 
 <br><hr><br>
 
 - ### login signup page
-![signup page](/assets/signup - Copy.png)
+![signup page](/assets/signupCopy.png)
+<br>
 ![login page](/assets/login.png)
 
 <br><hr><br>
 
 - ### Product listing page
 ![Product listing page](/assets/products01.png)
+<br>
 ![Product listing page](/assets/products02.png)
 
 <br><hr><br>
 
 - ### Cart page
-![Cart page](/assets/cart - Copy.png)
-![Cart page](/assets/cart02 - Copy.png)
+![Cart page](/assets/cartCopy.png)
+<br>
+![Cart page](/assets/cart02Copy.png)
 
 
 <br><hr><br>
@@ -67,4 +72,3 @@ Gourmet uses smooth colors and grid layout that maintains the outlay of the webs
 
 <br><hr><br>
 
-Images used:
