@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://dexterous-ui.netlify.app/stylesheets/main.css"
+    />
+    <link rel="stylesheet" href="/stylesheets/product-listing.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product Gourmet</title>
+  </head>
+
+  <body>
+    <nav class="navigation flex-row">
+      <div class="p-1">
+        <a class="navbar-brand brand-heading font-lg" href="/index.html">
+            Gourmet
+        </a>
+      </div>
+
+      <div class="flex-row">
+        <div class="cart-input flex-row">
+          <input type="text" placeholder="search" />
+          <a class="btn-link-noBorder" href="#">
+            <span class="material-icons">search</span>
+          </a>
+        </div>
+        <div class="button-box flex-row">
+          <div class="box-pill">
+            <a class="btn btn-link-noBorder" href="/pages/wishlist.html">
+              <span class="material-icons">favorite_border</span>
+            </a>
+          </div>
+          <div class="box-pill">
+            <a class="btn btn-link-noBorder" href="/pages/cart.html">
+              <span class="material-icons">shopping_cart</span>
+            </a>
+          </div>
+          <div class="box-pill p-1">
+            <a class="btn btn-link-noBorder font-bold" href="/pages/signup.html">
+              SignIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="page-container">
+        <div class="product-listing-container">
+            <div class="filter-container">
+                <div class="flex-row">
+                <div class="product-listing-heading p-1 font-md">Filters</div>
+                <div class="btn-link-noBorder p-l-3">clear</div>
+                </div>
+
+                <div class="m-1 p-1 card card-shadow">
+                    <div class="font-sm font-bold">Price</div>
+                    <div class="flex-row"><span class="p-r-3">10</span><span class="p-l-3">10</span></div>
+                    <div><input type="range" min="1" max="100" value="50" class="slider" id="myRange"></div>
+                    
+                </div>
+
+                <div class="m-1 p-1 card card-shadow">
+                    <div class="font-sm font-bold">Category</div>
+                    <label class="p-t-1 p-b-1">
+                    <input type="checkbox" class="m-r-1" >Desserts
+                    </label>
+
+                    <label class="p-b-1">
+                        <input type="checkbox" class="m-r-1">Indian
+                    </label>
+
+                    <label class="p-b-1">
+                        <input type="checkbox" class="m-r-1">Thai
+                    </label>
+
+                    <label>
+                        <input type="checkbox" class="m-r-1">Chinese
+                    </label>
+                    
+                </div>
+
+                <div class="m-1 p-1 card card-shadow">
+                    <div class="font-sm font-bold">Ratings</div>
+
+                    <label class="p-t-1 p-b-1">
+                        <input type="radio" class="m-r-1" name="rating-input">4 stars & above
+                    </label>
+
+                    <label class="p-b-1">
+                        <input type="radio" class="m-r-1" name="rating-input">3 stars & above
+                    </label>
+
+                    <label class="p-b-1">
+                        <input type="radio" class="m-r-1" name="rating-input">2 stars & above
+                    </label>
+
+                    <label class="p-b-1">
+                        <input type="radio" class="m-r-1" name="rating-input">1 stars & above
+                    </label>
+                    
+                </div>
+
+                <div class="m-1 p-1 card card-shadow">
+                    <div class="font-sm font-bold">Sort By</div>
+                    <label class="p-t-1 p-b-1">
+                        <input type="radio" class="m-r-1" name="sort-input">Price-low to high
+                    </label>
+                    <label class="p-b-1">
+                        <input type="radio" class="m-r-1" name="sort-input">Price-High to low
+                    </label>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="product-listing-heading flex-center p-1 font-lg">Showing All Products</div>
+                <div class="products-container">
+                <div class="card card-shadow p-1">
+                    <div class="flex-row">
+                      <div class="p-1 image">
+                        <img src="/assets/chitale ice cream.png" alt="Ice cream" />
+                      </div>
+                      <div>
+                        <div class="card-heading-container">
+                          <h3 class="font-md font-medium">Chitale</h3>
+                          <h5 class="font-sm font-light p-b-1">Ice cream</h5>
+                        </div>
+                        <span>Quantity: </span>
+                        <div class="card-text-container flex-center">
+                          <a href="#"><span class="material-icons">add</span></a>
+                          1<a href="#"><span class="material-icons">remove</span></a
+                          >
+                        </div>
+                        <span>₹299</span><span class="p-l-1"><strike>₹399</strike></span>
+                      </div>
+                    </div>
+        
+                    <button class="btn btn-outline-warning m-t-1 m-b-1">
+                      Add to cart
+                    </button>
+                    <button class="btn btn-success">Buy</button>
+                </div>
+        
+                  <div class="card card-shadow p-1">
+                    <div class="flex-row">
+                      <div class="p-1 image">
+                        <img src="/assets/top picks.png" alt="Biryani" />
+                      </div>
+                      <div>
+                        <div class="card-heading-container">
+                          <h3 class="font-md font-medium">Behrouz</h3>
+                          <h5 class="font-sm font-light p-b-1">Biryani</h5>
+                        </div>
+                        <span>Quantity: </span>
+                        <div class="card-text-container flex-center">
+                            <a href="#"><span class="material-icons">add</span></a>
+                            1<a href="#"><span class="material-icons">remove</span></a
+                            >
+                          </div>
+                        <span>₹299</span><span class="p-l-1"><strike>₹399</strike></span>
+                      </div>
+                    </div>
+        
+                    <button class="btn btn-outline-warning m-t-1 m-b-1">
+                      Move to wishlist
+                    </button>
+                    <button class="btn btn-success">Buy</button>
+                  </div>
+        
+                  <div class="card card-shadow p-1">
+                    <div class="flex-row">
+                      <div class="p-1 image">
+                        <img src="/assets/premium-category.png" alt="burger" />
+                      </div>
+                      <div>
+                        <div class="card-heading-container">
+                          <h3 class="font-md font-medium">Mcdonald's</h3>
+                          <h5 class="font-sm font-light p-b-1">Burger</h5>
+                        </div>
+                        <span>Quantity: </span>
+                        <div class="card-text-container flex-center">
+                            <a href="#"><span class="material-icons">add</span></a>
+                            1<a href="#"><span class="material-icons">remove</span></a
+                            >
+                          </div>
+                        <span>₹299</span><span class="p-l-1"><strike>₹399</strike></span>
+                      </div>
+                    </div>
+        
+                    <button class="btn btn-outline-warning m-t-1 m-b-1">
+                      Add to cart
+                    </button>
+                    <button class="btn btn-success">Buy</button>
+                  </div>
+
+                  <div class="card card-shadow p-1">
+                    <div class="flex-row">
+                      <div class="p-1 image">
+                        <img src="/assets/premium-category.png" alt="burger" />
+                      </div>
+                      <div>
+                        <div class="card-heading-container">
+                          <h3 class="font-md font-medium">Mcdonald's</h3>
+                          <h5 class="font-sm font-light p-b-1">Burger</h5>
+                        </div>
+                        <span>Quantity: </span>
+                        <div class="card-text-container flex-center">
+                            <a href="#"><span class="material-icons">add</span></a>
+                            1<a href="#"><span class="material-icons">remove</span></a
+                            >
+                          </div>
+                        <span>₹299</span><span class="p-l-1"><strike>₹399</strike></span>
+                      </div>
+                    </div>
+        
+                    <button class="btn btn-outline-warning m-t-1 m-b-1">
+                      Add to cart
+                    </button>
+                    <button class="btn btn-success">Buy</button>
+                  </div>
+            </div>
+            </div>
+        </div>
+
+        
+    </div>
+  </body>
+</html>
+
+
