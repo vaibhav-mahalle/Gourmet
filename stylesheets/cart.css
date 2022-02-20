@@ -30,12 +30,6 @@
     color: var(--bg-color);
 }
 
-.checkout-details{
-    position: fixed;
-    top: 11rem;
-    right: 10rem;
-}
-
 .page-container .section-heading{
     color: var(--bg-color);
 }
