@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://dexterous-ui.netlify.app/stylesheets/main.css"
+    />
+    <link rel="stylesheet" href="/stylesheets/cart.css" />
+    <link rel="stylesheet" href="/stylesheets/authentication.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cart Gourmet</title>
+  </head>
+
+  <body>
+    <nav class="navigation flex-row">
+      <div class="p-1">
+        <a class="navbar-brand brand-heading font-lg" href="/index.html"
+          >Gourmet</a
+        >
+      </div>
+
+      <div class="flex-row">
+        <div class="cart-input flex-row">
+          <input type="text" placeholder="search" />
+          <a class="btn-link-noBorder" href="#">
+            <span class="material-icons">search</span>
+          </a>
+        </div>
+        <div class="button-box flex-row">
+          <div class="box-pill">
+            <a class="btn btn-link-noBorder" href="#">
+              <span class="material-icons">favorite_border</span>
+            </a>
+          </div>
+          <div class="box-pill">
+            <a class="btn btn-link-noBorder" href="#">
+              <span class="material-icons">shopping_cart</span>
+            </a>
+          </div>
+          <div class="box-pill p-1">
+            <a
+              class="btn btn-link-noBorder font-bold"
+              href="/pages/signup.html"
+            >
+              SignIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="page-container">
+      <div class="section-heading flex-center p-1 font-lg">My Cart</div>
+
+      <div class="cart-page">
+        <div class="card-grid">
+          <div class="card card-shadow p-1">
+            <div class="flex-row">
+              <div class="p-1 image">
+                <img src="/assets/chitale ice cream.png" alt="Ice cream" />
+              </div>
+              <div>
+                <div class="card-heading-container">
+                  <h3 class="font-md font-medium">Chitale</h3>
+                  <h5 class="font-sm font-light p-b-1">Ice cream</h5>
+                </div>
+                <span>Quantity: </span>
+                <div class="card-text-container flex-center">
+                  <a href="#"><span class="material-icons">add</span></a
+                  ><input class="slider-text-input" type="text" value="1" /><a
+                    href="#"
+                    ><span class="material-icons">remove</span></a
+                  >
+                </div>
+                <span>₹299</span><span class="p-l-1"><strike>₹399</strike></span>
+              </div>
+            </div>
+
+            <button class="btn btn-outline-warning m-t-1 m-b-1">
+              Move to wishlist
+            </button>
+            <button class="btn btn-outline-danger">Remove from cart</button>
+          </div>
+
+          <div class="card card-shadow p-1">
+            <div class="flex-row">
+              <div class="p-1 image">
+                <img src="/assets/top picks.png" alt="Biryani" />
+              </div>
+              <div>
+                <div class="card-heading-container">
+                  <h3 class="font-md font-medium">Behrouz</h3>
+                  <h5 class="font-sm font-light p-b-1">Biryani</h5>
+                </div>
+                <span>Quantity: </span>
+                <div class="card-text-container flex-center">
+                  <a href="#"> <span class="material-icons">add</span> </a>
+                  <input class="slider-text-input" type="text" value="2" />
+                  <a href="#"> <span class="material-icons">remove</span></a>
+                </div>
+                <span>₹299</span><span class="p-l-1"><strike>₹399</strike></span>
+              </div>
+            </div>
+
+            <button class="btn btn-outline-warning m-t-1 m-b-1">
+              Move to wishlist
+            </button>
+            <button class="btn btn-outline-danger">Remove from cart</button>
+          </div>
+
+          <div class="card card-shadow p-1">
+            <div class="flex-row">
+              <div class="p-1 image">
+                <img src="/assets/premium-category.png" alt="burger" />
+              </div>
+              <div>
+                <div class="card-heading-container">
+                  <h3 class="font-md font-medium">Mcdonald's</h3>
+                  <h5 class="font-sm font-light p-b-1">Burger</h5>
+                </div>
+                <span>Quantity: </span>
+                <div class="card-text-container flex-center">
+                  <a href="#"><span class="material-icons">add</span></a>
+                  <input class="slider-text-input" type="text" value="1" />
+                  <a href="#"><span class="material-icons">remove</span></a>
+                </div>
+                <span>₹299</span><span class="p-l-1"><strike>₹399</strike></span>
+              </div>
+            </div>
+
+            <button class="btn btn-outline-warning m-t-1 m-b-1">
+              Move to wishlist
+            </button>
+            <button class="btn btn-outline-danger">Remove from cart</button>
+          </div>
+        </div>
+
+        <div class="flex-center checkout-details">
+          <div class="p-1 card card-shadow">
+            <div class="font-sm font-bold p-1">Price details</div>
+            <hr>
+            <div class="p-l-1 p-b-1">
+              Price (2 items) <span class="hor-space">₹500</span>
+            </div>
+            <div class="p-l-1 p-b-1">
+              Discounts <span class="hor-space">₹270</span>
+            </div>
+            <div class="p-l-1 p-b-1">
+              Delivery Charges <span class="hor-space">₹50</span>
+            </div>
+            <hr>
+            <div class="p-l-1 p-b-1 p-t-1">
+              TOTAL AMOUNT <span class="hor-space">₹280</span>
+            </div>
+            <div class="p-l-1 p-b-1">You will save ₹270 on this order</div>
+            <button class="btn btn-success">Place Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
